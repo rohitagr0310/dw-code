@@ -38,9 +38,9 @@ We reserve the right to remove, edit, or reject contributions that do not align 
 
 ## Credits
 
-Our Code of Conduct is inspired by the Contributor Covenant and tailored to fit our **dw-code** project.
+Our Code of Conduct is inspired by the [Contributor Covenant](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html) and tailored to fit our dw-code community.
 
-Thank you for contributing positively to the **dw-code** community. Together, we can create an environment that fosters learning, collaboration, and creativity for everyone.
+Thank you for contributing positively to the dw-code community. Together, we can create an environment that fosters learning, collaboration, and creativity for everyone
 
 ---
 
@@ -64,13 +64,3 @@ Thank you for contributing positively to the **dw-code** community. Together, we
 - Integrated file management and project organization.
 - Extensible through plugins and extensions.
 - Cross-platform, works on Windows, macOS, and Linux.
-
-## Getting Started
-
-To get started with **dw-code**, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/rohitagr0310/dw-code.git
-   cd dw-code
