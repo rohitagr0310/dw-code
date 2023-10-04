@@ -50,37 +50,10 @@ To get started with "dw-code," follow these steps:
    ```bash
    python main.py
    ```
-
+   
 ## Contributing
 
-We welcome contributions from the community to help improve "dw-code." Whether it's bug fixes, feature enhancements, documentation improvements, or new features, your contributions are highly appreciated. Please follow these guidelines to contribute:
-
-### How to Contribute
-
-1. **Star**  the repository.
-
-2. **Fork** the repository to your GitHub account.
-
-3. **Clone** your forked repository to your local machine:
-
-   ```bash
-   git clone https://github.com/rohitagr0310/dw-code.git
-   cd dw-code
-   ```
-
-4. Create a new branch for your contribution:
-
-   ```bash
-   git checkout -b feature-or-fix-branch
-   ```
-
-5. **Test** your changes thoroughly to ensure they work as expected.
-
-6. Create a **Pull Request** (PR) from your branch to the `main` branch of the original repository.
-
-7. Provide a descriptive **title** and **description** for your PR, explaining what the changes accomplish. Better share screenshots of changes.
-
-8. Once your PR is approved and passes all checks, it will be merged into the main codebase by maintainers.
+Contributions are welcome! If you'd like to contribute to "dw-code," please check out our [contribution guidelines](CONTRIBUTING.md).
 
 ## Support
 
