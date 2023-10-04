@@ -40,27 +40,4 @@ We reserve the right to remove, edit, or reject contributions that do not align 
 
 Our Code of Conduct is inspired by the [Contributor Covenant](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html) and tailored to fit our dw-code community.
 
-Thank you for contributing positively to the dw-code community. Together, we can create an environment that fosters learning, collaboration, and creativity for everyone
-
----
-
-**dw-code: A Powerful Python IDE with VS Code Style**
-- License
-- GitHub stars
-- GitHub issues
-- GitHub pull requests
-
-## Overview
-
-**dw-code** is an open-source Integrated Development Environment (IDE) designed to provide the style and look of Visual Studio Code (VS Code) while offering the power and functionality of popular C/C++ IDEs like Dev C++ and Code::Blocks. It's built using Python and the tkinter library. This repository is open for Hacktoberfest 2023!!
-
-## Features
-
-- VS Code-inspired user interface.
-- Powerful code editing capabilities.
-- Built-in menu bar for easy access to common functions.
-- Syntax highlighting for multiple programming languages.
-- Support for code autocompletion.
-- Integrated file management and project organization.
-- Extensible through plugins and extensions.
-- Cross-platform, works on Windows, macOS, and Linux.
+Thank you for contributing positively to the dw-code community. Together, we can create an environment that fosters learning, collaboration, and creativity for everyone.
