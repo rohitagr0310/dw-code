@@ -10,7 +10,8 @@
 "dw-code" is an open-source Integrated Development Environment (IDE) designed to provide the style and look of Visual Studio Code (VS Code) while offering the power and functionality of popular C/C++ IDEs like Dev C++ and Code::Blocks. It's built using Python and the tkinter library. This repository is open for **Hacktoberfest 2023!!**
 
 ## TODO:
-Before opening any issue refer to [TODO.md](https://github.com/rohitagr0310/dw-code/TODO.md
+Before opening any issue refer to TODO.md file.
+
 ## Features
 
 - VS Code-inspired user interface.
