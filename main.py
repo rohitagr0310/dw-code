@@ -1,26 +1,24 @@
-import tkinter as tk
-from menu_bar import create_menu_bar
-from tkinter import scrolledtext
+import sys
+from PyQt5.QtWidgets import QApplication, QMainWindow
+from components.code_editor.code_editor import CodeEditor
+from components.menu_bar.menu_bar import create_menu_bar
 
 def create_base_window():
-    root = tk.Tk()
-    root.title("My Python IDE")
-    
-    # Create a menu bar using the imported function
+    app = QApplication(sys.argv)
+    root = QMainWindow()
+    root.setWindowTitle("My Python IDE")
+    root.setGeometry(100, 100, 800, 600)  # Set the window size
+
+    # Create the custom code editor component
+    code_editor = CodeEditor(root)
+    root.setCentralWidget(code_editor)
+
+    # Create the menu bar
     create_menu_bar(root)
 
-    # Create a text widget (for code editing)
-    text_widget = scrolledtext.ScrolledText(
-        root,
-        wrap=tk.WORD,
-        font=("Consolas", 12),  # Use a monospaced font like Consolas
-        insertbackground="Black",  # Color of the cursor
-        selectbackground="lightblue"  # Color of selected text
-    )
-    text_widget.pack(expand=tk.YES, fill=tk.BOTH)
-
-    return root
+    return app, root
 
 if __name__ == "__main__":
-    app = create_base_window()
-    app.mainloop()
+    app, main_window = create_base_window()
+    main_window.show()
+    sys.exit(app.exec_())
