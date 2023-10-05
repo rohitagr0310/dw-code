@@ -1,5 +1,6 @@
 import tkinter as tk
 from menu_bar import create_menu_bar
+from tkinter import scrolledtext
 
 def create_base_window():
     root = tk.Tk()
@@ -9,14 +10,14 @@ def create_base_window():
     create_menu_bar(root)
 
     # Create a text widget (for code editing)
-    text_widget = tk.Text(root, wrap=tk.WORD)
+    text_widget = scrolledtext.ScrolledText(
+        root,
+        wrap=tk.WORD,
+        font=("Consolas", 12),  # Use a monospaced font like Consolas
+        insertbackground="Black",  # Color of the cursor
+        selectbackground="lightblue"  # Color of selected text
+    )
     text_widget.pack(expand=tk.YES, fill=tk.BOTH)
-
-    # Create a scrollbar for the text widget
-    scrollbar = tk.Scrollbar(text_widget)
-    scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
-    text_widget.config(yscrollcommand=scrollbar.set)
-    scrollbar.config(command=text_widget.yview)
 
     return root
 
